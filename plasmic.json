@@ -1,0 +1,233 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../static",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.0.2",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ]
+    },
+    {
+      "projectId": "vHW8PexQ9CvaEbwGp1Pgn6",
+      "projectApiToken": "lxFvhlIN6nwEwsQ6Aix7HmpmSooHC07b7V8taOTOse7XEQ7AbOH4XaYhYhbFoK40CP5iciroBQFZA7A7BrKA",
+      "projectName": "Mosaico",
+      "version": "latest",
+      "cssFilePath": "plasmic/mosaico/plasmic_mosaico.module.css",
+      "components": [
+        {
+          "id": "GpKY1VwXjp",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "vHW8PexQ9CvaEbwGp1Pgn6",
+          "renderModuleFilePath": "plasmic/mosaico/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/mosaico/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "AMFdTatok8",
+          "name": "Menu",
+          "type": "managed",
+          "projectId": "vHW8PexQ9CvaEbwGp1Pgn6",
+          "renderModuleFilePath": "plasmic/mosaico/PlasmicMenu.tsx",
+          "importSpec": {
+            "modulePath": "Menu.tsx"
+          },
+          "cssFilePath": "plasmic/mosaico/PlasmicMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wV8UN81fACq",
+          "name": "LessonCard",
+          "type": "managed",
+          "projectId": "vHW8PexQ9CvaEbwGp1Pgn6",
+          "renderModuleFilePath": "plasmic/mosaico/PlasmicLessonCard.tsx",
+          "importSpec": {
+            "modulePath": "LessonCard.tsx"
+          },
+          "cssFilePath": "plasmic/mosaico/PlasmicLessonCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8ekmXy00nHs",
+          "name": "DashboardHeader",
+          "type": "managed",
+          "projectId": "vHW8PexQ9CvaEbwGp1Pgn6",
+          "renderModuleFilePath": "plasmic/mosaico/PlasmicDashboardHeader.tsx",
+          "importSpec": {
+            "modulePath": "DashboardHeader.tsx"
+          },
+          "cssFilePath": "plasmic/mosaico/PlasmicDashboardHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "WZsLhnL7f",
+          "name": "MenusvgIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Menusvg.tsx"
+        },
+        {
+          "id": "2z0He7J2cw",
+          "name": "HomesvgIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Homesvg.tsx"
+        },
+        {
+          "id": "3x7w478lro",
+          "name": "LargeCalendarIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__LargeCalendar.tsx"
+        },
+        {
+          "id": "E1daVl593h",
+          "name": "SmallArrowRightIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__SmallArrowRight.tsx"
+        },
+        {
+          "id": "kLMrq0QaD1",
+          "name": "LargeDoubleArrowLeftIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__LargeDoubleArrowLeft.tsx"
+        },
+        {
+          "id": "yyOUR06ega",
+          "name": "Group1628Icon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Group1628.tsx"
+        },
+        {
+          "id": "z4i-YHqt6Q",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "vBtboUvniP",
+          "name": "LargeReportGraphIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__LargeReportGraph.tsx"
+        },
+        {
+          "id": "jZe9gVLYYC",
+          "name": "EllipseIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Ellipse.tsx"
+        },
+        {
+          "id": "Qe7x4B2VeF",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "8FsbJpDOfk",
+          "name": "Group3Icon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Group3.tsx"
+        },
+        {
+          "id": "h8tHWqtpzK",
+          "name": "Group4Icon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Group4.tsx"
+        },
+        {
+          "id": "Pz_BdPol3p",
+          "name": "Group15Icon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Group15.tsx"
+        },
+        {
+          "id": "ClPH6uYObK",
+          "name": "LargeCircleQuestionOutlineIcon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__LargeCircleQuestionOutline.tsx"
+        },
+        {
+          "id": "SwkyZvdjP-",
+          "name": "Ellipse11Icon",
+          "moduleFilePath": "plasmic/mosaico/icons/PlasmicIcon__Ellipse11.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "HE78KBJAh4",
+          "name": "Logo-Mosaico",
+          "filePath": "plasmic/mosaico/images/logoMosaico.svg"
+        },
+        {
+          "id": "gz4flAGCR2",
+          "name": "Large/Project Hub",
+          "filePath": "plasmic/mosaico/images/largeProjectHub.svg"
+        },
+        {
+          "id": "XbP_k422D",
+          "name": "DashboardHeader",
+          "filePath": "plasmic/mosaico/images/dashboardHeader.png"
+        },
+        {
+          "id": "6kpxEL3HsZ",
+          "name": "image 7",
+          "filePath": "plasmic/mosaico/images/image7.png"
+        },
+        {
+          "id": "5u7Z4oUEDN",
+          "name": "Ellipse 3",
+          "filePath": "plasmic/mosaico/images/ellipse3.png"
+        },
+        {
+          "id": "cxEvsvBfUh",
+          "name": "Ellipse 2",
+          "filePath": "plasmic/mosaico/images/ellipse2.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "8FkJ8JIQff",
+        "name": "Closed",
+        "projectId": "vHW8PexQ9CvaEbwGp1Pgn6",
+        "contextFilePath": "plasmic/mosaico/PlasmicGlobalVariant__Closed.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.182",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.182/dist/plasmic.schema.json"
+}

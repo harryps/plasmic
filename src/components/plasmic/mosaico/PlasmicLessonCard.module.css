@@ -1,0 +1,424 @@
+.root {
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.2));
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  min-width: 0;
+  border-radius: 6px;
+}
+.header {
+  flex-direction: row;
+  background: rgba(126, 226, 207, 1);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  min-width: 0;
+  padding: 16px;
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__xxK7H {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #121019;
+  width: 24px;
+  height: 24px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.titles {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dynamic {
+  display: block;
+  font-size: 12px;
+  font-family: "Malva";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 12px;
+  color: rgba(17, 15, 24, 1);
+  align-self: stretch;
+  position: relative;
+}
+.dynamic2 {
+  display: block;
+  font-size: 14px;
+  font-family: "Malva";
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: rgba(17, 15, 24, 1);
+  align-self: stretch;
+  position: relative;
+}
+.content {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  overflow: hidden;
+  width: 100%;
+  min-width: 0;
+  padding: 16px;
+}
+.content > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.content > :global(.__wab_flex-container) > *,
+.content > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.content > :global(.__wab_flex-container) > picture > img,
+.content
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.dateTime {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.dateTime > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.dateTime > :global(.__wab_flex-container) > *,
+.dateTime > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.dateTime > :global(.__wab_flex-container) > picture > img,
+.dateTime
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.dateGroup {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.dateGroup > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.dateGroup > :global(.__wab_flex-container) > *,
+.dateGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.dateGroup > :global(.__wab_flex-container) > picture > img,
+.dateGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 4px;
+}
+.homeNextLessonCardDate {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Malva";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 10px;
+  color: rgba(140, 137, 153, 1);
+  position: relative;
+  width: 62px;
+}
+.tag {
+  flex-direction: row;
+  background: rgba(243, 245, 248, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  padding: 3px 9px;
+}
+.tag > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.tag > :global(.__wab_flex-container) > *,
+.tag > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.tag > :global(.__wab_flex-container) > picture > img,
+.tag > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.text__sHZcw {
+  display: block;
+  font-size: 12px;
+  font-family: "Malva";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(17, 15, 24, 1);
+  position: relative;
+}
+.timeGroup {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.timeGroup > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.timeGroup > :global(.__wab_flex-container) > *,
+.timeGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.timeGroup > :global(.__wab_flex-container) > picture > img,
+.timeGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 4px;
+}
+.homeNextLessonCardTime {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Malva";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 10px;
+  color: rgba(140, 137, 153, 1);
+  position: relative;
+  width: 124px;
+}
+.tag2 {
+  flex-direction: row;
+  background: rgba(243, 245, 248, 1);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  padding: 3px 9px;
+}
+.tag2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.tag2 > :global(.__wab_flex-container) > *,
+.tag2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.tag2 > :global(.__wab_flex-container) > picture > img,
+.tag2 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.text__eNqpK {
+  display: block;
+  font-size: 12px;
+  font-family: "Malva";
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(17, 15, 24, 1);
+  position: relative;
+}
+.activitiesGroup {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.activitiesGroup > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.activitiesGroup > :global(.__wab_flex-container) > *,
+.activitiesGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.activitiesGroup > :global(.__wab_flex-container) > picture > img,
+.activitiesGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 4px;
+}
+.homeNextLessonCardActivities {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Malva";
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 10px;
+  color: rgba(140, 137, 153, 1);
+  position: relative;
+  width: 218px;
+}
+.dynamic3 {
+  display: block;
+  font-size: 14px;
+  font-family: "Malva";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(17, 15, 24, 1);
+  position: relative;
+  width: 244px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.actions {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  min-width: 0;
+}
+.buttonDetails {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+.buttonDetails > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.buttonDetails > :global(.__wab_flex-container) > *,
+.buttonDetails > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonDetails > :global(.__wab_flex-container) > picture > img,
+.buttonDetails
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.link {
+  display: block;
+  font-size: 14px;
+  font-family: "Malva";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(105, 10, 213, 1);
+  position: relative;
+}
+.svg__rtyRn {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #6a0bd6;
+  width: 12px;
+  height: 12px;
+  display: block;
+  flex-shrink: 0;
+}
+.button {
+  flex-direction: row;
+  background: rgba(126, 226, 207, 1);
+  width: auto;
+  height: 36px;
+  display: flex;
+  position: relative;
+  border-radius: 72px;
+  padding: 8px 16px;
+}
+.button > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.button > :global(.__wab_flex-container) > *,
+.button > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.button > :global(.__wab_flex-container) > picture > img,
+.button
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.homenextLessonCardactionButton {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Malva";
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(17, 15, 24, 1);
+  position: relative;
+}
